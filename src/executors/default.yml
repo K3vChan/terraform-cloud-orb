@@ -5,6 +5,6 @@ docker:
 
 parameters:
   image:
-    description: Specify Docker image for executor
+    description: Specify Docker image for executor test
     type: string
     default: cimg/base:2020.01
