@@ -3,7 +3,7 @@ description: |
 
 parameters:
     workspace-id:
-        description: "Terraform worksapce id that is being updated"
+        description: "Terraform workspace id that is being updated"
         type: string
         default: ""
     variable-name:
