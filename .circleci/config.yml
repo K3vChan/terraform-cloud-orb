@@ -60,7 +60,7 @@ workflows:
             - shellcheck/check
       # Publish development version(s) of the orb.
       - orb-tools/publish-dev:
-          orb-name: circleci/terraform
+          orb-name: the-angry-cs-graduate/terraform
           context: orb-publishing # A restricted context containing your private publishing credentials. Will only execute if approved by an authorized user.
           requires: [hold-for-dev-publish]
       # Trigger an integration workflow to test the
