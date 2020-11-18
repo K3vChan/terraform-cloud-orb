@@ -1,0 +1,10 @@
+description: >
+  Simple Docker based Terraform executor.
+docker:
+  - image: '<< parameters.image >>'
+
+parameters:
+  image:
+    description: Specify Docker image for executor
+    type: string
+    default: cimg/base:2020.01
